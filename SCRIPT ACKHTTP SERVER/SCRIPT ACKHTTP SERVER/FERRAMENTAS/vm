@@ -1,0 +1,8 @@
+#!/bin/bash
+echo 1048576 > /proc/sys/fs/nr_open
+echo 1048576 > /proc/sys/fs/file-max
+echo 200 > /proc/sys/vm/vfs_cache_pressure
+echo 100 > /proc/sys/vm/swappiness
+echo 16 > /proc/sys/vm/page-cluster
+echo 1 > /proc/sys/vm/dirty_background_ratio
+echo 33554432 > /proc/sys/vm/overcommit_ratio
