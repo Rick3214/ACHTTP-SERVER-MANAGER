@@ -12,7 +12,7 @@ except:
 PASS = ''
 BUFLEN = 16384 * 8
 TIMEOUT = 30000
-MSG = 'Rick3214 V 1.3'
+MSG = 'ACKHTTP V 1.3'
 DEFAULT_HOST = '0.0.0.0:1194'
 RESPONSE = "HTTP/1.1 101 " + str(MSG) + "\r\n\r\n"
 
